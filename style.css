@@ -1,0 +1,194 @@
+body{
+    background-image: url(photo_2023-12-01_17-46-54.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background-color: #311919;
+    height: 80px;
+}
+
+
+/*------------------------------------------------------nav section--------------------------------------------------------*/
+
+.container{ 
+    height: 100vh;
+}
+.card-color{
+    background-color: burlywood;
+}
+
+
+.card-color4{
+    background-color: burlywood;
+}
+
+.card-text a{
+    background-color: #7B261A;
+}
+
+.card-body{
+   background-color: antiquewhite;
+}
+ 
+.about{
+    margin-left: 300px;
+    position: absolute;
+    top: 550px;
+    z-index: 1;
+ }
+
+.home{
+    position: absolute;
+    top: 120px;
+    left: 10;
+    z-index: 1;
+}
+
+.store{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 200px;
+    z-index: 1;
+}
+
+.img-fluid{
+        width: 650px;
+        height: 340px;
+}
+
+.tof .img-fluid{
+    height: 300px;
+}
+
+
+/*------------------------------------------------------home section--------------------------------------------------------*/
+
+.center{
+    width: 600px;
+    padding: 10px;
+    background-color: #F6E1C5;
+}
+
+.fluid{
+    background-color: #A5342B;
+    opacity: 69%;
+}
+
+.fluid4{
+    background-color: #A5342B;
+    opacity: 69%;
+}
+
+.f{
+    background-color: #A5342B;
+    opacity: 69%;
+}
+
+/*------------------------------------------------------store section--------------------------------------------------------*/
+
+
+.card-store{
+    position: relative;
+    left: 72%;
+    bottom: 28%;
+}
+
+/*------------------------------------------------------product section--------------------------------------------------------*/
+
+.card-prod{
+    position: relative;
+    left: 70%;
+    bottom: -50%;
+}
+
+.card-prod2{
+    position: relative;
+    right: 80%;
+    top: -20%;
+}
+
+
+.prod{
+    position: relative;
+    left: 80%;
+    top: -20%;
+}
+
+.prod2{
+    position: relative;
+    bottom: -50%;
+    right: 80%;
+}
+
+.prod3{
+    position: relative;
+    left: 70%;
+    bottom: -50%;
+}
+
+.prod4{
+    position: relative;
+    right: 80%;
+    top: -15%;
+}
+
+/*------------------------------------------------------footer section--------------------------------------------------------*/
+
+
+.footer{
+    background-color: #311919;
+}
+
+@media screen and (max-width: 412px){
+    .home{
+        top: 280px;
+    }
+
+    .about{
+        top: 0;
+     }
+
+     .card-prod {
+        left: 0;
+        bottom: 0;
+    }
+    
+    .card-prod2{
+        right: 0;
+        top: O;
+    }
+    
+    
+    .prod{
+        left: 0;
+        top: 0;
+    }
+    
+    .prod2{
+        bottom: 0;
+        right: 0;
+    }
+    
+    .prod3{
+        left: 0;
+        top: 0;
+    }
+
+    .prod4{
+        left: 0;
+        top: 0;
+    }
+
+    .card-store{
+        left: 0;
+        bottom: 0;
+    }
+    
+    .card-store{
+        bottom: -20%;
+    }
+}
